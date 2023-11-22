@@ -6,9 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_margin="20dp"
+    android:background="#C3C3C3"
     android:weightSum="100"
-    android:background="@color/off_white"
     tools:context=".LoginOtpActivity">
 
     <LinearLayout
@@ -78,7 +77,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/enter_otp_sent_to_registered_number"
-        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
         android:letterSpacing="0.08"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -97,10 +98,11 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:hint="OTP"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:inputType="number"
-            android:textColor="@color/black"
+            android:textColor="@color/dark_grey"
             android:maxLength="6"
-            android:layout_margin="10dp"
             android:background="@drawable/edit_text_bg"
             android:elevation="5dp"
             android:id="@+id/login_otp"/>
@@ -117,6 +119,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:text="NEXT"
             android:id="@+id/login_next_btn"/>
 
